@@ -12,7 +12,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://premier-league-rag-api.onrender.com",
+        "https://ai-engineer-roadmap-7nt7g678q-webops2s-projects.vercel.app",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
