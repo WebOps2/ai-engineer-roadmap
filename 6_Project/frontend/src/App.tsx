@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from "react";
 
-type Source = {
-  dataset: string;
-  row: number | null;
-};
+// type Source = {
+//   dataset: string;
+//   row: number | null;
+// };
 
 type ChatResponse = {
   answer: string;
@@ -16,7 +16,7 @@ function App() {
   const [question, setQuestion] = useState("");
   const [askedQuestion, setAskedQuestion] = useState("");
   const [answer, setAnswer] = useState("");
-  const [sources, setSources] = useState<Source[]>([]);
+  // const [sources, setSources] = useState<Source[]>([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -29,7 +29,7 @@ function App() {
     setAskedQuestion(submittedQuestion);
     setQuestion("");
     setAnswer("");
-    setSources([]);
+    // setSources([]);
     setError("");
     setLoading(true);
 
